@@ -12,7 +12,7 @@ $(window).load(function() {
 
 $(document).ready(function() {
 	//$('.carousel').carousel();
-    $('#header_wrapper').scrollToFixed();
+    //$('#header_wrapper').scrollToFixed();
     $('.res-nav_click').click(function() {
         $('.main-nav').slideToggle();
         return false
