@@ -95,7 +95,7 @@ position: absolute;
   left: 0;
   width:60%;
   border-radius: 80px;
-  background: rgba(255,255,255,0.5);
+  /*background: rgba(255,255,255,0.5);*/
 }
 .carousel-fade .carousel-control {
   z-index: 2;
@@ -114,21 +114,22 @@ position: absolute;
   background-color: #BC2A87;
 }
 .caption h2{
-color: 310000;
+color: #fff;
 text-align: right !important;
 line-height:45px;
-font-size: 50px;
+font-size: 70px;
 font-weight: 600;}
 
 .caption h3{
-    color: 310000;
-    line-height:30px;
+    color: #fff;
+    line-height:50px;
     font-size: 30px;
     font-weight: 400;
 margin-bottom: 6px;}
 
+.iconContact{ width: 70px;}
 .caption strong { 
-  font-size: 26px;
+  font-size: 40px;
 }
 
 /* Common style */
@@ -289,8 +290,8 @@ figure.effect-oscar:hover img {
 ---------------------------------*/
 body {
     background: #fff;
-    font-family: "Varela Round", sans-serif;
-    font-size: 14px;
+    font-family: "David Libre", serif;
+    font-size: 18px;
     font-weight: normal;
     color: #888888;
     margin: 0;
@@ -2486,9 +2487,7 @@ width: 100%;
 text-align: left;
 margin-top: 20px;
 }
-.caption {
-display:none;
-}
+
 .navbar {
 border: 0px solid #fff;
 min-height: 40px;
@@ -2541,4 +2540,22 @@ section#experience {
     height: 100px;
     margin: 0 auto;
     border-radius: 100px;
+}
+
+.slideImgMo{ display: none !important;}
+
+@media  (max-width: 900px) {
+    .slideImg{ display: none !important;}
+
+    .slideImgMo{ display: block !important;}
+
+    .whatsapp{ width: 50px; top: 50px; left: 10px;}
+    .whatsapp img{width: 50px;}
+  
+    .caption{ top:0; padding-top: 20px; width: 100%; right: 0;}
+    .caption h2{ font-size: 30px; margin-bottom: 10px; line-height: 25px;}
+    .caption strong{ font-size: 20px;}
+    .caption h3{ font-size: 20px; line-height: 20px;}
+
+    .iconContact{ width: 30px;}
 }
