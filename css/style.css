@@ -333,8 +333,10 @@ p {
 #header_wrapper {
     background: #5E2305;
     padding: 15px 0px;
-    position: relative;
+    position: sticky;
+    top:0;
     border-top: 2px solid #fff;
+    z-index: 99;
 }
 
 .header_box {
