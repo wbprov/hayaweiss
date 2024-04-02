@@ -2546,6 +2546,10 @@ section#experience {
 
 .slideImgMo{ display: none !important;}
 
+.flags{ background-color: #FFDDD7;}
+.flags img{ width: 30px; margin: 10px 5px; opacity: 0.4;}
+.flags a.selected img{ opacity: 1;}
+
 @media  (max-width: 900px) {
     .slideImg{ display: none !important;}
 

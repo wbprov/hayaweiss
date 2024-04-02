@@ -1,0 +1,13 @@
+.caption h2,
+.caption h3{ text-align: left !important;}
+.whatsapp{ left: auto; right: 50px;}
+
+.caption{ padding: 50px;}
+
+@media  (max-width: 900px) {
+
+    .caption{  padding: 20px; }
+    .caption h2{ font-size: 28px;}
+    .caption h3{ font-size: 16px;}
+    .whatsapp{ right: 20px; top: 190px;}
+}
